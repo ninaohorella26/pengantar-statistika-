@@ -1,0 +1,18 @@
+setwd("D:\\PENTING!!!\\kuliah semester 4\\psk r")
+nilai_k <- function(num, i,t,nilai,m=TRUE,n=m*t,v=1/(1+j),j=i/m)
+  switch(num, 
+         satu = {
+           k_pv=nilai/((((1-(v)^n)/j)))
+           k_sn=nilai/((((1+j)^n)-1)/j)
+           cat("didapatkan nilai k = ",k_pv,"\n")
+           cat("didapatkan nilai k untuk sn = ",k_sn,"\n")
+         },
+         dua = {
+           k_pv=nilai/(((1-(v)^n)/(j*v)))
+           k_sn=nilai/((((1+j)^n)-1)/(j*v))
+           cat("didapatkan k untuk pv = ",k_pv,"\n")
+           cat("didapatkan k untuk sn = ",k_sn,"\n")
+           
+         }
+         
+  )
