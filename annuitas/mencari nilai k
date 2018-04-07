@@ -1,3 +1,7 @@
+i = bunga
+nilai = nilai an atau sn
+
+
 setwd("D:\\PENTING!!!\\kuliah semester 4\\psk r")
 nilai_k <- function(num, i,t,nilai,m=TRUE,n=m*t,v=1/(1+j),j=i/m)
   switch(num, 
